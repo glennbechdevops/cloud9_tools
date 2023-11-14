@@ -15,6 +15,8 @@ Denne andre kommandoen sørger for at operativsystemet har tilgang til den utvid
 sudo growpart /dev/nvme0n1 1
 ```
 
+Det kan ta 10-20 minutter før du har mer plass. 
+
 # Om rettigheter i Cloud 9 
 
 Når du åpner Cloud9 miljøet ditt, vil du få tildelt et lite sett med rettigheter som gir deg tilgang til de vanligste AWS tjenestene. 
