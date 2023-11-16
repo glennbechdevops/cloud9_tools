@@ -24,3 +24,13 @@ Hvis du skal jobbe med andre tjenester, er det best å jobbe med sine egne IAM n
 
 Jeg vil anbefale å opprette nøkler for din IAM bruker og kjøre ```aws configure``` fra Cloud9 i terminalen for å jobbe  
 som en egen bruker.
+
+Deretter gjør dere følgende i Cloud 9 
+
+![Logo](img/creds.png "Assignment logo")
+
+Finn AWS Settings, of slå AV AWS managed temporary credentials.
+
+![Logo](img/preferences.png "Assignment logo")
+
+
