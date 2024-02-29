@@ -15,7 +15,7 @@ Denne andre kommandoen sørger for at operativsystemet har tilgang til den utvid
 sudo growpart /dev/nvme0n1 1
 ```
 
-Det kan ta 10-20 minutter før du har mer plass. 
+Det kan ta 10-20 minutter før du har mer plass, du kan gjøre en re-boot av EC2-Instansen hvis det ikke skjer av seg selv. 
 
 # Om rettigheter i Cloud 9 
 
