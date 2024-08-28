@@ -29,7 +29,7 @@ Deretter gjør dere følgende i Cloud 9
 
 ![Logo](img/creds.png "Assignment logo")
 
-Finn AWS Settings, of slå AV AWS managed temporary credentials.
+Finn AWS Settings, og slå AV AWS managed temporary credentials.
 
 ![Logo](img/preferences.png "Assignment logo")
 
