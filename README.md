@@ -40,3 +40,17 @@ Finn AWS Settings, og slå AV AWS managed temporary credentials.
 Deretter kan du kjøre kommandoen 
 
 ```aws configure``` og bruke Security Credentials du har laget for din IAM bruker 
+
+## Om feilen " The security token included in the request is invalid" 
+
+Hvis dere får en feil som ligner på denne fra Java-eller pythonkode 
+```
+caused by: software.amazon.awssdk.services.sqs.model.SqsException: The security token included in the request is invalid (Service: Sqs, Status Code: 403, Request ID: 61ddb1f5-81fb-508a-964c-ee59132ac067)
+        at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleErrorRespo
+```
+Gå først til hjemmekatalogen in 
+```
+cd ~/.aws
+cat credentials
+```
+Hvis du ser en tom linje med AWS_SESSION_TOKEN, ta den bort med en teksteditor (feks `vi`, eller `nano`) 
