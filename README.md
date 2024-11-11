@@ -53,4 +53,10 @@ Gå først til hjemmekatalogen in
 cd ~/.aws
 cat credentials
 ```
-Hvis du ser en tom linje med AWS_SESSION_TOKEN, ta den bort med en teksteditor (feks `vi`, eller `nano`) 
+Hvis du ser en tom linje med AWS_SESSION_TOKEN, ta den bort med en teksteditor (feks `vi`, eller `nano`) - filen skal se slik ut 
+
+```
+[default]
+aws_access_key_id = xxx
+aws_secret_access_key = yyy
+```
