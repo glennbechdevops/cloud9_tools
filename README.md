@@ -1,6 +1,6 @@
 # Cloud 9 tools
 
-# Hvordan øke diskplass til Cloud 9 
+# Hvordan øke diskplass for Cloud 9 instansen din
 
 Det kan være en god idé å være proaktiv og øke lagringsplassen i Cloud9-miljøet. Dette kan oppnås ved hjelp av to kommandoer. 
 
