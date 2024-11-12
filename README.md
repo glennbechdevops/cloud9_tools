@@ -4,7 +4,7 @@
 
 Det kan være en god idé å være proaktiv og øke lagringsplassen i Cloud9-miljøet. Dette kan oppnås ved hjelp av to kommandoer. 
 
-Denne kommandoen utvider størrelsen på disken til EC2-instansen som Cloud9 kjører på til 20GB fra 10GB
+Denne kommandoen utvider størrelsen på disken til EC2-instansen som Cloud9 kjører på til 40GB fra 10GB
 
 ```shell
 aws ec2 modify-volume --volume-id $(aws ec2 describe-volumes --region $(curl -s http://169.254.169.254/latest/meta-data/placement/availability-zone | sed 's/[a-z]$//') --filters Name=attachment.instance-id,Values=$(curl -s http://169.254.169.254/latest/meta-data/instance-id) --query "Volumes[*].VolumeId" --output text) --size 40     
